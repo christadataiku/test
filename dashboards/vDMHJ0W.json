@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "id": "iOSqUKN",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "ludo",
+  "listed": false,
+  "name": "Default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 1,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533222527896
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1523281322126
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

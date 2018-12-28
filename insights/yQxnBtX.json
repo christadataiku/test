@@ -1,0 +1,30 @@
+{
+  "type": "web_app",
+  "params": {
+    "webAppSmartId": "h92ez90",
+    "webAppType": "STANDARD",
+    "apiKey": "j4CrjIHC0f15Bi8xiq11HmCNBQiGEfIg"
+  },
+  "owner": "ludo",
+  "listed": false,
+  "name": "Chord Analysis",
+  "dashboardCreationId": "cCGoZPg",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533217835430
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533217835430
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

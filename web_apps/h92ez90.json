@@ -1,0 +1,37 @@
+{
+  "type": "STANDARD",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "html": "\u003c!-- Body of your app --\u003e",
+    "css": "body {\n}",
+    "backendEnabled": true,
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ]
+  },
+  "name": "Chord Analysis",
+  "apiKey": "dummyKey_B3kQ0nHaVzYe8O2Kbgzuo715vg7m1KqM",
+  "versionTag": {
+    "versionNumber": 107,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533210578791
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533192699215
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

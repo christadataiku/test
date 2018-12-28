@@ -1,0 +1,186 @@
+{
+  "pages": [
+    {
+      "id": "CAHEWqx",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 1,
+              "left": 0,
+              "width": 7,
+              "height": 2
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "borderColor": "#bec9bd",
+            "insightId": "wSsTNrZ",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 3,
+              "left": 0,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "borderColor": "#b6bfb6",
+            "insightId": "Gs995Og",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 1,
+              "left": 7,
+              "width": 5,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "NO",
+            "borderColor": "#acb3ab",
+            "insightId": "yQxnBtX",
+            "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 3,
+              "left": 3,
+              "width": 4,
+              "height": 3
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "cbpC5I7",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 7,
+              "width": 5,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "\u003ci\u003eThis charts helps you visualizing how visitors navigate on the website.\u003c/i\u003e\n\u003ci\u003eThe chart is interactive : you can select a web page and see how it is connected to others.\u003c/i\u003e",
+              "textAlign": "LEFT",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 3,
+              "width": 2,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "LAST_VALUE"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Nb visited pages (1 month)",
+            "borderColor": "#dbdbdb",
+            "insightId": "7VvJgcq",
+            "insightType": "metrics",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 0,
+              "left": 5,
+              "width": 2,
+              "height": 1
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "displayMode": "LAST_VALUE"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "title": "Nb visitors (1 month)",
+            "borderColor": "#cbd1cb",
+            "insightId": "hTQTXwy",
+            "insightType": "metrics",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "title": "Weblog Analysis Dashboard",
+      "showTitle": true,
+      "backgroundColor": "#def5dc"
+    }
+  ],
+  "owner": "ludo",
+  "listed": true,
+  "name": "WebLogs Dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 43,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1538127107385
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533217713052
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

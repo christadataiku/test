@@ -1,0 +1,52 @@
+{
+  "preFilter": {
+    "distinct": false,
+    "enabled": false
+  },
+  "firstRows": 50,
+  "keys": [],
+  "computedColumns": [],
+  "retrievedColumns": [
+    "source",
+    "target",
+    "value"
+  ],
+  "lastRows": 0,
+  "duplicateCount": false,
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "rank": false,
+  "denseRank": false,
+  "orders": [
+    {
+      "column": "value",
+      "desc": true
+    }
+  ],
+  "rowNumber": false,
+  "outputColumnNameOverrides": {}
+}

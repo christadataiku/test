@@ -1,0 +1,30 @@
+{
+  "type": "metrics",
+  "params": {
+    "objectSmartId": "Logs_data",
+    "objectType": "DATASET",
+    "metricId": "records:COUNT_RECORDS"
+  },
+  "owner": "ludo",
+  "listed": false,
+  "name": "Record count of Logs_data",
+  "dashboardCreationId": "cCGoZPg",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533221100010
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533221100010
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

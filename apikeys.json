@@ -1,0 +1,65 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "FbPjC4bY2q5qVAls",
+    "key": "dummyKey_kTZ4KM0udAzXmOMQchOFPaSspKCz81ue",
+    "label": "Key for Web app Sankey Diagram(Eqxw7y8)",
+    "createdOn": 1532437742332
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "Wh7m4B9eBdtfYj5M",
+    "key": "dummyKey_TxCmUZpgYuuGs75nAy5dVGoI3QgjZRRy",
+    "label": "Key for Web app Network Analysis(LEkHKlw)",
+    "createdOn": 1533137871013
+  },
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "HdITTw1S90fBzhOJ",
+    "key": "dummyKey_B3kQ0nHaVzYe8O2Kbgzuo715vg7m1KqM",
+    "label": "Key for Web app Chord Analysis(h92ez90)",
+    "createdOn": 1533192699160
+  }
+]

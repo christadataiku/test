@@ -1,0 +1,30 @@
+{
+  "type": "metrics",
+  "params": {
+    "objectSmartId": "Logs_data",
+    "objectType": "DATASET",
+    "metricId": "col_stats:COUNT_DISTINCT:visitor_id"
+  },
+  "owner": "ludo",
+  "listed": false,
+  "name": "Distinct value count of visitor_id on Logs_data",
+  "dashboardCreationId": "cCGoZPg",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533221285465
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533221285465
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

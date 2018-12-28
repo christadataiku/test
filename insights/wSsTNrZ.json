@@ -1,0 +1,197 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "Visits_per_day",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "FULL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 1
+    },
+    "def": {
+      "type": "stacked_area",
+      "variant": "normal",
+      "name": "Visitors pey day",
+      "userEditedName": true,
+      "genericDimension0": [
+        {
+          "column": "server_ts_day",
+          "type": "DATE",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "dateParams": {
+            "mode": "DAY"
+          },
+          "maxValues": 0,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of visitor_id_distinct, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Sum of visitor_id_distinct, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "visitor_id_distinct",
+          "function": "SUM",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 1,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "xAxisLabel": "date",
+      "yAxisLabel": "nb visitors",
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.7,
+        "colorPalette": "Set3",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB+0lEQVRoQ+2ZPUvEMBjH04JQUPwKTi6Cik7eILi5iS4HB34Mu3dwUK+T+hEEUSf9Agpy9m5R2kMcHBz8Bsf5gmAr0UbSXJKmL0dDmhvvkifP7/9/8noGqNnHqBkv0MCqO66kw4fP3emvz+hkZ76xQRqoJLDb964gqAYGQM1FSzuMTWQ9h1XYlnRJ65JWoY4xBl3SsRhucHdcq1Xa7XtnGliF6cyaw9phFdyFDMjhKBy07MX1N8Ql5DBviZdRIPexOwfCaA/mFkWgYy809nMBs+6XskEjg1Be+J04k8O0ALLB4uVM5usGvU1ghK3UbYlUTFanYZ7QTZbD8fcfuYAhdO/pdeui2fyu2mWaIXhOqKQLA5ftdPvhds1eWr3JImAaLJ5jKcAsaF4itIc1fO6xfieF2L3vzFgT5pGIQFip5y9p3iLGAx5axrYzuzLAE3UD7xIYf+9rosAi7lLE4AOLBCUTbPv+pGG+n/KUJ/vg49CA0YKUECl+ihVxGGtTHJh0JY9IvL0TlTtPpAzQ8gPTTnoiojJEqAY4rSqI09HvvwiUFTeDsf9NR4Gdl2tramid54mWpQ+xPya68oALuAvHGAUuGDALM7MtC7iE4HIDH/jesmkCpwRQFCIJLIO7Jc1VlkZyApfoKBkq/aQ1xsErCZ16W6okqzEOWjvgH6E5T7pksPYhAAAAAElFTkSuQmCC",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "SIDEBAR"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "ludo",
+  "listed": false,
+  "name": "Visitors pey day on Visits_per_day",
+  "dashboardCreationId": "cCGoZPg",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533217739590
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533217739590
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}

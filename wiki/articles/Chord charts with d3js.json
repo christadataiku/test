@@ -1,0 +1,36 @@
+{
+  "layout": "WIKI_ARTICLE",
+  "attachments": [
+    {
+      "attachmentType": "DSS_OBJECT",
+      "taggableType": "WEB_APP",
+      "projectKey": "WEBLOGSANALYSIS",
+      "id": "h92ez90",
+      "details": {
+        "objectDisplayName": "Chord Analysis",
+        "webappType": "STANDARD",
+        "userDisplayName": "Ludovic"
+      },
+      "attachedBy": "ludo",
+      "attachedOn": 1533223810992
+    }
+  ],
+  "versionTag": {
+    "versionNumber": 24,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533225733949
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "ludo"
+    },
+    "lastModifiedOn": 1533222967649
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
