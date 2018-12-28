@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "ludo"
+      "login": "Christa"
     },
-    "lastModifiedOn": 1533221060045
+    "lastModifiedOn": 1546015235499
   },
   "creationTag": {
     "versionNumber": 0,
@@ -50,7 +50,6 @@
     "partitioningType": "custom",
     "normalizeDoubles": true,
     "table": "${projectKey}_logs_data",
-    "schema": "work_dku",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
