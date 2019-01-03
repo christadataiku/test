@@ -124,6 +124,8 @@
     "path": "/"
   },
   "name": "Weblogs Analysis",
+  "imgPattern": 2,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -175,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 82,
+    "versionNumber": 83,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546015213492
+    "lastModifiedOn": 1546546029857
   },
   "creationTag": {
     "versionNumber": 0,
