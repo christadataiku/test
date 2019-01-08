@@ -165,11 +165,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 45,
+    "versionNumber": 46,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546963983972
+    "lastModifiedOn": 1546964034604
   },
   "creationTag": {
     "versionNumber": 0,
