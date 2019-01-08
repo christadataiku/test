@@ -157,8 +157,7 @@
         ]
       },
       "title": "Weblog Analysis Dashboard",
-      "showTitle": true,
-      "backgroundColor": "#def5dc"
+      "showTitle": true
     }
   ],
   "owner": "ludo",
@@ -166,11 +165,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 44,
+    "versionNumber": 45,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546963979787
+    "lastModifiedOn": 1546963983972
   },
   "creationTag": {
     "versionNumber": 0,
