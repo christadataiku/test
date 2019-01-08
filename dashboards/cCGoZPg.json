@@ -10,7 +10,7 @@
               "top": 1,
               "left": 0,
               "width": 7,
-              "height": 2
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -31,10 +31,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 0,
-              "width": 3,
-              "height": 3
+              "top": 0,
+              "left": 7,
+              "width": 5,
+              "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -55,10 +55,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 1,
-              "left": 7,
-              "width": 5,
-              "height": 5
+              "top": 10,
+              "left": 2,
+              "width": 8,
+              "height": 8
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {},
@@ -73,10 +73,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 3,
-              "left": 3,
-              "width": 4,
-              "height": 3
+              "top": 4,
+              "left": 0,
+              "width": 11,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -96,9 +96,9 @@
           {
             "tileType": "TEXT",
             "box": {
-              "top": 0,
-              "left": 7,
-              "width": 5,
+              "top": 9,
+              "left": 2,
+              "width": 8,
               "height": 1
             },
             "clickAction": "DO_NOTHING",
@@ -165,11 +165,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 46,
+    "versionNumber": 47,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546964034604
+    "lastModifiedOn": 1546964111441
   },
   "creationTag": {
     "versionNumber": 0,
