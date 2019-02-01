@@ -109,6 +109,7 @@
     },
     "sparkEngineCreationSettings": {
       "useGlobal": true,
+      "executionEngine": "SPARK_SUBMIT",
       "useGlobalMetastore": false
     },
     "impalaEngineCreationSettings": {
@@ -162,6 +163,10 @@
       "impala": {
         "active": true
       },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
       "python": {}
     },
     "displayedState": {
@@ -177,11 +182,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 83,
+    "versionNumber": 84,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546546029857
+    "lastModifiedOn": 1549042944874
   },
   "creationTag": {
     "versionNumber": 0,
@@ -200,6 +205,7 @@
     "wepapp",
     "imported"
   ],
+  "customFields": {},
   "checklists": {
     "checklists": [
       {
