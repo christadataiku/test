@@ -122,7 +122,7 @@
         "values": [
           "//dataiku.com"
         ],
-        "matchingMode": "SUBSTRING",
+        "matchingMode": "FULL_STRING",
         "action": "FLAG",
         "appliesTo": "COLUMNS",
         "flagColumn": "flag_dtku"
