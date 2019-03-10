@@ -11,6 +11,7 @@
           "inheritConf": "default",
           "conf": []
         },
+        "executionEngine": "SPARK_SUBMIT",
         "readParams": {
           "map": {
             "Logs_data": {
@@ -19,7 +20,18 @@
             }
           }
         },
-        "useGlobalMetastore": false
+        "useGlobalMetastore": false,
+        "useNativeProcessors": true
+      },
+      "hive": {
+        "inheritConf": "default",
+        "hiveconf": [],
+        "executionEngine": "HIVECLI_LOCAL",
+        "addDkuUdf": false,
+        "skipPrerunValidate": false
+      },
+      "impala": {
+        "forceStreamMode": true
       },
       "hadoopConfigKeys": [],
       "maxThreads": 8
@@ -51,11 +63,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
-      "login": "ludo"
+      "login": "Christa"
     },
-    "lastModifiedOn": 1533211094975
+    "lastModifiedOn": 1552214704688
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,6 +77,7 @@
     "lastModifiedOn": 1523345880269
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
