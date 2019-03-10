@@ -7,9 +7,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 1,
-              "left": 0,
-              "width": 7,
+              "top": 8,
+              "left": 2,
+              "width": 9,
               "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
@@ -22,7 +22,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "borderColor": "#bec9bd",
+            "borderColor": "#ffffff",
             "insightId": "wSsTNrZ",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -31,9 +31,9 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 0,
-              "left": 7,
-              "width": 5,
+              "top": 2,
+              "left": 8,
+              "width": 4,
               "height": 4
             },
             "clickAction": "OPEN_INSIGHT",
@@ -46,7 +46,7 @@
             },
             "autoLoad": true,
             "showTitle": "YES",
-            "borderColor": "#b6bfb6",
+            "borderColor": "#ffffff",
             "insightId": "Gs995Og",
             "insightType": "chart",
             "displayMode": "INSIGHT",
@@ -55,8 +55,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 10,
-              "left": 2,
+              "top": 0,
+              "left": 0,
               "width": 8,
               "height": 8
             },
@@ -64,7 +64,7 @@
             "tileParams": {},
             "autoLoad": true,
             "showTitle": "NO",
-            "borderColor": "#acb3ab",
+            "borderColor": "#ffffff",
             "insightId": "yQxnBtX",
             "insightType": "web_app",
             "displayMode": "INSIGHT",
@@ -73,8 +73,8 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
-              "left": 0,
+              "top": 11,
+              "left": 1,
               "width": 11,
               "height": 5
             },
@@ -94,29 +94,10 @@
             "resizeImageMode": "FIT_SIZE"
           },
           {
-            "tileType": "TEXT",
-            "box": {
-              "top": 9,
-              "left": 2,
-              "width": 8,
-              "height": 1
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "text": "\u003ci\u003eThis charts helps you visualizing how visitors navigate on the website.\u003c/i\u003e\n\u003ci\u003eThe chart is interactive : you can select a web page and see how it is connected to others.\u003c/i\u003e",
-              "textAlign": "LEFT",
-              "isTransparent": false
-            },
-            "autoLoad": true,
-            "showTitle": "NO",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 3,
+              "left": 8,
               "width": 2,
               "height": 1
             },
@@ -127,7 +108,7 @@
             "autoLoad": true,
             "showTitle": "YES",
             "title": "Nb visited pages (1 month)",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#a352e3",
             "insightId": "7VvJgcq",
             "insightType": "metrics",
             "displayMode": "INSIGHT",
@@ -137,7 +118,7 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 0,
-              "left": 5,
+              "left": 10,
               "width": 2,
               "height": 1
             },
@@ -148,33 +129,17 @@
             "autoLoad": true,
             "showTitle": "YES",
             "title": "Nb visitors (1 month)",
-            "borderColor": "#cbd1cb",
+            "borderColor": "#a2a0e8",
             "insightId": "hTQTXwy",
             "insightType": "metrics",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 3,
-              "height": 3
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {},
-            "autoLoad": true,
-            "showTitle": "NO",
-            "insightId": "ZhTWIHY",
-            "insightType": "web_app",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
       "title": "Weblog Analysis Dashboard",
-      "showTitle": true
+      "showTitle": true,
+      "backgroundColor": "#ffffff"
     }
   ],
   "owner": "ludo",
@@ -182,11 +147,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 50,
+    "versionNumber": 51,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1552213451014
+    "lastModifiedOn": 1552213627133
   },
   "creationTag": {
     "versionNumber": 0,
