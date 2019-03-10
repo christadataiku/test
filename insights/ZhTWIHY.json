@@ -1,0 +1,31 @@
+{
+  "type": "web_app",
+  "params": {
+    "webAppSmartId": "h92ez90",
+    "webAppType": "STANDARD",
+    "apiKey": "dummyKey_B3kQ0nHaVzYe8O2Kbgzuo715vg7m1KqM"
+  },
+  "owner": "Christa",
+  "listed": false,
+  "name": "Chord Analysis",
+  "dashboardCreationId": "cCGoZPg",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "Christa"
+    },
+    "lastModifiedOn": 1552213450402
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "Christa"
+    },
+    "lastModifiedOn": 1552213450402
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -153,6 +153,23 @@
             "insightType": "metrics",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 3,
+              "height": 3
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {},
+            "autoLoad": true,
+            "showTitle": "NO",
+            "insightId": "ZhTWIHY",
+            "insightType": "web_app",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -165,11 +182,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 48,
+    "versionNumber": 49,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1546964144329
+    "lastModifiedOn": 1552213450411
   },
   "creationTag": {
     "versionNumber": 0,
@@ -179,6 +196,7 @@
     "lastModifiedOn": 1533217713052
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
