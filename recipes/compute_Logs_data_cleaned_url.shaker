@@ -50,7 +50,7 @@
         ],
         "appliesTo": "COLUMNS",
         "stopAfterFirstMatch": false,
-        "matching": "SUBSTRING"
+        "matching": "FULL_STRING"
       },
       "alwaysShowComment": false
     },
