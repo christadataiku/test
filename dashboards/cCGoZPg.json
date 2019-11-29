@@ -61,7 +61,9 @@
               "height": 8
             },
             "clickAction": "DO_NOTHING",
-            "tileParams": {},
+            "tileParams": {
+              "loadTimeoutInSeconds": 0
+            },
             "autoLoad": true,
             "showTitle": "NO",
             "borderColor": "#ffffff",
@@ -147,11 +149,11 @@
   "name": "WebLogs Dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 52,
+    "versionNumber": 53,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1552213644145
+    "lastModifiedOn": 1575025625609
   },
   "creationTag": {
     "versionNumber": 0,
