@@ -2,20 +2,39 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
-    "html": "\u003c!-- Body of your app --\u003e",
-    "css": "body {\n}",
     "backendEnabled": true,
+    "enableJavascriptModules": false,
     "autoStartBackend": false,
+    "hideJSSecurityPanel": false,
     "envSelection": {
       "envMode": "INHERIT"
     },
+    "nbProcesses": 1,
     "libraries": [
       "jquery",
       "dataiku"
-    ]
+    ],
+    "infra": {
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      },
+      "overrideGlobalK8sExposition": false,
+      "exposition": {
+        "type": "local_process",
+        "params": {}
+      },
+      "scaling": {
+        "initialReplicas": 1,
+        "hpa": false,
+        "hpaTargetCPUPercent": 0,
+        "hpaMinPods": 0,
+        "hpaMaxPods": 0
+      }
+    }
   },
+  "config": {},
   "name": "Chord Analysis",
-  "apiKey": "dummyKey_B3kQ0nHaVzYe8O2Kbgzuo715vg7m1KqM",
+  "apiKey": "OhorQrHmQ1k66JoQBvIWJFPtXg6NY8zy",
   "versionTag": {
     "versionNumber": 107,
     "lastModifiedBy": {
@@ -33,5 +52,7 @@
   "tags": [],
   "checklists": {
     "checklists": []
-  }
+  },
+  "customFields": {},
+  "isVirtual": false
 }
