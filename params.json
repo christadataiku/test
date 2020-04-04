@@ -150,7 +150,7 @@
       }
     }
   },
-  "name": "Weblogs Analysis",
+  "name": "Weblogs Analysis (my-branch)",
   "imgPattern": 2,
   "showInitials": false,
   "metrics": {
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 89,
+    "versionNumber": 91,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1585996461713
+    "lastModifiedOn": 1585996601980
   },
   "creationTag": {
     "versionNumber": 0,
@@ -222,14 +222,15 @@
     "lastModifiedOn": 1523281322122
   },
   "description": "Weblog Analysis DataViz\n----\n\nThe goal of this project is to show how DSS can display advanced visual representations to understand how visitors navigate on a website\n\nIt uses\n- logs history",
-  "shortDesc": "Data visualization project showing how visitors behave on a website",
+  "shortDesc": "Data visualization project showing how visitors behave on a website\nThe project *WEBLOGS_ANALYSIS_MY_BRANCH* was copied from *WEBLOGSANALYSIS* by Christa on avr. 04th 2020",
   "tags": [
     "Marketing",
     "dataviz",
     "javascript",
     "markdown",
     "wepapp",
-    "imported"
+    "imported",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {

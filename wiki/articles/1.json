@@ -1,0 +1,36 @@
+{
+    "layout": "WIKI_ARTICLE", 
+    "attachments": [
+        {
+            "taggableType": "WEB_APP", 
+            "attachmentType": "DSS_OBJECT", 
+            "smartId": "h92ez90", 
+            "attachedOn": 1533223810992, 
+            "details": {
+                "webappType": "STANDARD", 
+                "objectDisplayName": "Chord Analysis", 
+                "userDisplayName": "Ludovic"
+            }, 
+            "attachedBy": "ludo"
+        }
+    ], 
+    "versionTag": {
+        "lastModifiedBy": {
+            "login": "ludo"
+        }, 
+        "lastModifiedOn": 1533225733949, 
+        "versionNumber": 24
+    }, 
+    "tags": [], 
+    "creationTag": {
+        "lastModifiedBy": {
+            "login": "ludo"
+        }, 
+        "lastModifiedOn": 1533222967649, 
+        "versionNumber": 0
+    }, 
+    "checklists": {
+        "checklists": []
+    }, 
+    "name": "Chord charts with d3js"
+}
