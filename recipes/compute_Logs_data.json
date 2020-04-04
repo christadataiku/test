@@ -4,23 +4,29 @@
   "optionalDependencies": false,
   "params": {
     "schemaMode": "STRICT_SYNC",
+    "forcePipelineableForTests": false,
     "engineParams": {
       "maxThreads": 4,
       "tdchParams": {
+        "splitMode": "DEFAULT",
         "numberOfExecutors": 2
       },
       "sparkSQL": {
         "overwriteOutputSchema": false,
         "useGlobalMetastore": false,
+        "readParams": {
+          "mode": "AUTO",
+          "autoModeRepartitionInto": 10,
+          "map": {}
+        },
         "sparkConfig": {
           "inheritConf": "default",
           "conf": []
         },
-        "readParams": {
-          "map": {}
-        },
+        "executionEngine": "SPARK_SUBMIT",
+        "pipelineAllowStart": true,
         "pipelineAllowMerge": true,
-        "pipelineAllowStart": true
+        "skipPrerunValidate": false
       },
       "impala": {
         "forceStreamMode": true
@@ -31,6 +37,10 @@
         "executionEngine": "HIVECLI_LOCAL",
         "addDkuUdf": false,
         "skipPrerunValidate": false
+      },
+      "sqlPipelineParams": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true
       },
       "lowerCaseSchemaIfEngineRequiresIt": false
     }
@@ -75,6 +85,7 @@
     "lastModifiedOn": 1523287751225
   },
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }

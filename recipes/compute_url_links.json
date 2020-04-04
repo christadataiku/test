@@ -43,6 +43,7 @@
   },
   "shortDesc": "Count each path used on the website",
   "tags": [],
+  "customFields": {},
   "checklists": {
     "checklists": []
   }
