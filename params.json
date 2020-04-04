@@ -53,13 +53,16 @@
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "gitCommitMode": "AUTO",
+    "useRemoteGit": true,
     "disableAutomaticTriggers": false,
     "integrations": {
       "integrations": []
     },
     "flowBuildSettings": {
       "mergeSparkPipelines": false,
-      "pruneBeforeSparkPipelines": true
+      "pruneBeforeSparkPipelines": true,
+      "mergeSqlPipelines": false,
+      "pruneBeforeSqlPipelines": true
     },
     "limitsSettings": {
       "memSampleBytes": {
@@ -122,7 +125,30 @@
     "cluster": {
       "clusterMode": "INHERIT"
     },
-    "path": "/"
+    "k8sCluster": {
+      "clusterMode": "INHERIT"
+    },
+    "virtualWebAppBackendSettings": {
+      "mode": "INHERIT",
+      "preventOverride": false,
+      "infra": {
+        "containerSelection": {
+          "containerMode": "INHERIT"
+        },
+        "overrideGlobalK8sExposition": false,
+        "exposition": {
+          "type": "local_process",
+          "params": {}
+        },
+        "scaling": {
+          "initialReplicas": 1,
+          "hpa": false,
+          "hpaTargetCPUPercent": 0,
+          "hpaMinPods": 0,
+          "hpaMaxPods": 0
+        }
+      }
+    }
   },
   "name": "Weblogs Analysis",
   "imgPattern": 2,
@@ -182,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 86,
+    "versionNumber": 87,
     "lastModifiedBy": {
       "login": "Christa"
     },
-    "lastModifiedOn": 1552213450245
+    "lastModifiedOn": 1585996075577
   },
   "creationTag": {
     "versionNumber": 0,
